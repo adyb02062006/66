@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<center><button onclick="like()"><img id="white" src="99.jpg" width="400" height="400"></button></center>
+<script>
+    onoff=false
+    function like() {
+        onoff=!onoff
+    if (onoff){
+        document.getElementById("white").src="99.jpg"
+    } else if (!onoff){
+        document.getElementById("white").src="88.jpg"
+    }
+
+    }
+</script>
+</body>
+</html>
